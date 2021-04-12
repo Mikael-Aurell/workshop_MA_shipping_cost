@@ -1,9 +1,9 @@
-#Shipping Cost Calculating App
-##App Pages
+# Shipping Cost Calculating App
+## App Pages
 1. AddBoxForm
 2. ShowBoxList
    
-###Frameworks:
+### Frameworks:
 - Spring Boot Dev Tools
 - Spring Boot Web
 - Spring Data JPA
@@ -14,7 +14,7 @@
 - bootstrap
 - Unit test
 
-####Functionalities:
+#### Functionalities:
 - Implement CRUD Operations
 - Implement Validation for AddBoxForm
 - Calculate shipping cost
@@ -27,7 +27,13 @@
 - Optional: Implement **Exception Handling**
 
 
-######Class Variables
+## Classes
+- ShippingController
+- BoxRepository
+- Box
+
+###### Class Variables
+Class Name:  Box
 ```
 String id;
 String name;
@@ -41,9 +47,9 @@ boolean status;
 ```
 
 
-###Add Form
+### Add Form
 ![addForm](img/addForm.png)
-###Validation Add Form
+### Validation Add Form
 ![validationAddForm.png](img/validationAddForm.png)
-###Show List
+### Show List
 ![showList](img/showList.png)
